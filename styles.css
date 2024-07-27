@@ -18,7 +18,12 @@ nav{
   flex-wrap: wrap;
 }
 .logo{
-  width: 140px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 50px;
+  border: 2px #ff0045 solid;
+  
+
 }
 nav ul li{
   display: inline-block;
@@ -33,14 +38,106 @@ nav ul li a{
 }
 nav ul li a:hover{
   width: 100%;
-  color: aqua;
+  color:#ff0045;
 }
-.introduction{
+.title{
+   font-size: 40px;
+}
+span{
+  color: #ff0045;
+}
+
+.header-text{
   margin-top: 20%;
-  font-size: 20px;
+  font-size: 30px;
+  margin-left: 50px;
+  padding:50px;
 }
-.introduction h1{
+.header-text h1{
+  margin-top: 40px;
+  font-size: 50px;
+}
+#portfolio{
+  padding: 50px 0;
+}
+
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,5fr));
+  grid-gap: 50px;
+  margin-top: 50px;
+}
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  
+  
+}
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  
+  
+
+
+}
+.layer{
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6),#ff0045);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 25px;
+
+}
+.layer a{
   margin-top: 20px;
-  font-size: 60px;
+  color: #ff0045;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
 }
+.work:hover img{
+  transform: scale(1.1);
+
+}
+.work:hover .layer{
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
