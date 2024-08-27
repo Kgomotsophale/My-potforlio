@@ -35,6 +35,7 @@ nav ul li a{
   text-decoration: none;
   font-size: 20px;
   position: relative;
+  
 }
 nav ul li a:hover{
   width: 100%;
@@ -48,9 +49,9 @@ span{
 }
 
 .header-text{
-  margin-top: 15%;
+  margin-top: 5%;
   font-size: 20px;
-  padding:38px;
+  padding:10px;
   text-align: center;
   
 
@@ -58,6 +59,10 @@ span{
 .header-text h1{
   margin-top: 38px;
   font-size: 30px;
+  
+}
+.header-text h2{
+  color:#ff0045
   
 }
 h3{
@@ -133,16 +138,49 @@ h3{
 .work:hover .layer{
   height: 100%;
 }
-.contact-icon{
+.contact{
   font-size: 20px;
   text-decoration: none;
   color: #ff0045;
   padding: 20px;
+}
+.contact-icon{
+  color: #ff0045;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #portfolio{display: flex;
+    width: 100%;
+    
+  }
+  .work-list{
+    display:block
+  }
+  .layer{
+    font-size: 5px;
+    margin-top: 50px;
+    
+  }
+  .layer h3{
+    font-size: 5px;
+    display:block;
+    
+  }
+  img{
+    padding: 5px;
+  }
+  .i class{
+    font-size: 2px;
+  }
+  nav ul li a{
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  
 
   
 }
-
-
-
-
-
+}
