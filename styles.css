@@ -173,14 +173,15 @@ h3{
   .i class{
     font-size: 2px;
   }
-  nav ul li a{
+  nav ul li{
   font-size: 15px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
+  padding: 5px;
   
 
-  
 }
+.contact-icon {
+  font-size: 10px;
+}
+
 }
