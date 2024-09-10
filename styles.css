@@ -35,6 +35,10 @@ nav ul li a{
   text-decoration: none;
   font-size: 20px;
   position: relative;
+  left:700px;
+   font-weight: 600;
+  color:rgb(230, 75, 18);
+  text-shadow: 3px 3px 3px #fff;
   
 }
 nav ul li a:hover{
@@ -42,7 +46,11 @@ nav ul li a:hover{
   color:#ff0045;
 }
 .title{
-   font-size: 40px;
+   font-size: 45px;
+    font-weight: 600;
+  color:rgb(230, 75, 18);
+  text-shadow: 3px 3px 3px #fff;
+  text-align: center;
 }
 
 h3{
@@ -78,7 +86,7 @@ h3{
 .layer{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.7),#ff9b05);
+  background: linear-gradient(rgba(0,0,0,0.7),#fff);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -92,6 +100,7 @@ h3{
   text-align: center;
   font-size: 14px;
   transition: height 0.5s;
+  
 }
 .layer h3{
   font-weight: 500;
@@ -123,9 +132,10 @@ h3{
   text-decoration: none;
   color: #ff9b05;
   padding: 20px;
+  
 }
 .contact-icon a{
-  color: #fff;
+ color: #fff;
   text-decoration: none;
 }
 
@@ -167,5 +177,4 @@ h3{
 .contact-icon {
   font-size: 10px;
 }
-
 }
